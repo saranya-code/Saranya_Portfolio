@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#f3f3f3;
+}
+
+h2{
+    
+    color: white;
+}
+
+nav a{
+    color: cadetblue;
+    margin-left:10px;
+    text-decoration:none;
+    
+}
+nav a:hover{
+
+    color: white;
+    text-decoration: underline;
+}
+.banner{
+    display: flex;
+    background-image: url("../image/banner.jpg");
+    height:200px;
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.banner img{
+    border-radius: 50%;
+    border:2px solid lightblue;
+    margin-right: 128px;
+    margin-top: 10px;
+}
+
+/* main{
+    display: flex;
+    padding:30px;
+} */
+.detail-header{
+   
+    border-right: 2px solid black;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px;
+}
+.detail{
+   font-size: 16px;
+    padding-left: 20px;
+}
+.detail h3{
+    padding: 10px 0;
+}
+.detail h4{
+    padding: 5px 0;
+}
+.detail ul{
+    padding-left: 10px;
+}
+.detail div p:last-child{
+    margin-bottom: 20px;
+}
+
+/* .detail div p{
+    padding-left: 10px;
+} */
+
+/* responsive layout that adapts to my viewport */
+
+@media screen and (max-width:600px){
+    header{
+        background-color: #6c5f8a;
+    }
+    .detail-header{
+        
+        text-align: center;
+        border:none;
+        
+    }
+    .detail{
+        width:100%;
+        padding-left: 0px;
+    }
+    /* main{
+        flex-direction: column;
+    } */
+}
+
+.left-navigation div{
+
+border: 1px solid black;
+text-align: center;
+height:200px;
+width:100%
+}
