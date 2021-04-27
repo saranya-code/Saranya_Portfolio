@@ -34,5 +34,6 @@ Created a portfolio page.
 * Deployment URL : https://saranya-code.github.io/Saranya_Portfolio/
 
 * Screenshot :
-![Webpage Screenshot](./assets/image/updatedPortfolio.png?raw=true)
+
+![Webpage Screenshot](./assets/image/portfolio.gif?raw=true)
 
